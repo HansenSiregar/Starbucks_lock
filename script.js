@@ -4,7 +4,7 @@ function login() {
     const message = document.getElementById("message");
 
     if (username === "admin" && password === "admin123") {
-      window.location.href = "index.html";
+      window.location.href = "user_password.html";
       message.style.color = "green";
       message.textContent = "Login berhasil. Selamat datang, " + username + "!";
     } 
